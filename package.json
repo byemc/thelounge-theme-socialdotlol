@@ -1,0 +1,11 @@
+{
+  "name": "thelounge-theme-socialdotlol",
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "None",
+  "thelounge": {
+    "css": "socialdotlol.css",
+    "name": "social.lol",
+    "type": "theme"
+  }
+}

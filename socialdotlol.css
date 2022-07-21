@@ -1,0 +1,12 @@
+div.logo-container img {
+    display: none;
+}
+
+div.logo-container {
+    height: 45px;
+}
+
+div.logo-container::after {
+    content: url("https://omg.lol/meta/img/prami.png");
+    height: 45px;
+}
