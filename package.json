@@ -1,11 +1,14 @@
 {
   "name": "thelounge-theme-socialdotlol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "package.json",
   "license": "UNLICENSED",
   "thelounge": {
     "css": "socialdotlol.css",
     "name": "social.lol",
-    "type": "theme"
+    "type": "theme",
+    "files": [
+      "prami.svg"
+    ]
   }
 }
