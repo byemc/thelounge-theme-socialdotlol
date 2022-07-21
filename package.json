@@ -2,7 +2,7 @@
   "name": "thelounge-theme-socialdotlol",
   "version": "1.0.0",
   "main": "package.json",
-  "license": "None",
+  "license": "UNLICENSED",
   "thelounge": {
     "css": "socialdotlol.css",
     "name": "social.lol",
