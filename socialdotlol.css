@@ -152,8 +152,11 @@
 
 form#form {
     background: var(--gray-7);
-    color: var(--gray-2);
-    border: 1px solid var(--gray-5);
+    border: 0;
+}
+
+form#form textarea#input::placeholder {
+    color: var(--gray-5);
 }
 
 #form #submit, #form #upload {
