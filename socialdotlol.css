@@ -175,3 +175,9 @@ div.logo-container::after {
     display: block;
     margin: 0 auto;
 }
+
+@media(max-width: 768px) {
+    :root {
+        margin-bottom: 12px;
+    }
+}
