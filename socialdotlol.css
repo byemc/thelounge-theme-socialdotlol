@@ -159,7 +159,7 @@ textarea#input::placeholder {
     color: var(--gray-5);
 }
 
-input, #chat .userlist .search {
+input, #chat .userlist .search, form.message-search .input-wrapper input {
     background: var(--gray-7);
 }
 
