@@ -180,4 +180,7 @@ div.logo-container::after {
     form#form {
         padding-bottom: 20px;
     }
+    footer#footer {
+        padding-bottom: 20px;
+    }
 }
