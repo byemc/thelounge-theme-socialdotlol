@@ -159,8 +159,11 @@ textarea#input::placeholder {
     color: var(--gray-5);
 }
 
-input {
+input, #chat .userlist .search {
     background: var(--gray-7);
+}
+
+input::placeholder {
     color: var(--gray-5);
 }
 
