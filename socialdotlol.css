@@ -177,7 +177,7 @@ div.logo-container::after {
 }
 
 @media(max-width: 768px) {
-    :root {
+    body {
         margin-bottom: 12px;
     }
 }
