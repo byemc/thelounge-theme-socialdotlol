@@ -202,7 +202,7 @@ div.logo-container::after {
 }
 
 #chat .toggle-content {
-    background: var(--gray9);
+    background: var(--gray-9);
 }
 
 ul#context-menu {
