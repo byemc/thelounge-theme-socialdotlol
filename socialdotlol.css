@@ -1,12 +1,32 @@
+
+@import url("/packages/thelounge-theme-socialdotlol/colors.css");
+
+:root {
+    --body-color: var(--gray-8);
+    --body-color-muted: var(--gray-6);
+    --body-bg-color: var(--gray-8);
+    --button-color: var(--blue-3);
+    --button-text-color-hover: #fff;
+    --overlay-bg-color: rgba(0,0,0,.5);
+    --link-color: var(--blue-1);
+    --window-bg-color: var(--gray-8);
+    --window-heading-color: var(--gray-6);
+    --date-marker-color: var(--gray-4);
+    --unread-marker-color: var(--red-6);
+    --highlight-bg-color: #efe8dc;
+    --highlight-border-color: #b08c4f;
+    --upload-progressbar-color: var(--button-color);
+}
+
 div.logo-container img {
     display: none;
     height: 46px;
-    background-color: grey;
     width: 100%
 }
 
 div.logo-container::after {
-    content: url(/packages/thelounge-theme-socialdotlol/prami.svg);
+    content: url(/packages/thelounge-theme-socialdotlol/logo.svg);
     width: 80px;
-    display: block; /* somehow fixes sizing */
+    display: block;
+    margin: 0 auto;
 }
