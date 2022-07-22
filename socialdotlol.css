@@ -6,7 +6,7 @@ div.logo-container img {
 }
 
 div.logo-container::after {
-    content: url(../prami.svg);
-    height: 46px;
-    display: flex; /* somehow fixes sizing */
+    content: url(/packages/thelounge-theme-socialdotlol/prami.svg);
+    width: 80px;
+    display: block; /* somehow fixes sizing */
 }
