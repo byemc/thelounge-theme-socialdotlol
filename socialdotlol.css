@@ -178,6 +178,6 @@ div.logo-container::after {
 
 @media(max-width: 768px) {
     body {
-        margin-bottom: 12px;
+        height: env(safe-area-inset-top); 
     }
 }
