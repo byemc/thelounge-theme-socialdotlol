@@ -159,8 +159,9 @@ textarea#input::placeholder {
     color: var(--gray-5);
 }
 
-textarea#input {
+input {
     background: var(--gray-7);
+    color: var(--gray-5);
 }
 
 #form #submit, #form #upload {
