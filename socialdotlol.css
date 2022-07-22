@@ -155,8 +155,12 @@ form#form {
     border: 0;
 }
 
-form#form textarea#input::placeholder {
+textarea#input::placeholder {
     color: var(--gray-5);
+}
+
+textarea#input {
+    background: var(--gray-7);
 }
 
 #form #submit, #form #upload {
