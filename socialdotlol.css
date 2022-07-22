@@ -184,3 +184,36 @@ div.logo-container::after {
         padding-bottom: 20px;
     }
 }
+
+#chat.colored-nicks .user.color-1 { color: var(--blue-5) }
+#chat.colored-nicks .user.color-2 { color: var(--teal-3) }
+#chat.colored-nicks .user.color-3 { color: var(--indigo-4) }
+#chat.colored-nicks .user.color-4 { color: var(--cyan-3) }
+#chat.colored-nicks .user.color-5 { color: var(--green-4) }
+#chat.colored-nicks .user.color-6 { color: var(--green-6) }
+#chat.colored-nicks .user.color-7 { color: var(--red-3) }
+#chat.colored-nicks .user.color-8 { color: var(--red-6) }
+#chat.colored-nicks .user.color-9 { color: var(--violet-5) }
+#chat.colored-nicks .user.color-10 { color: var(--pink-2) }
+#chat.colored-nicks .user.color-11 { color: var(--indigo-2) }
+#chat.colored-nicks .user.color-12 { color: var(--indigo-5) }
+#chat.colored-nicks .user.color-13 { color: var(--violet-3) }
+#chat.colored-nicks .user.color-14 { color: var(--cyan-6) }
+#chat.colored-nicks .user.color-15 { color: var(--teal-2) }
+#chat.colored-nicks .user.color-16 { color: var(--teal-5) }
+#chat.colored-nicks .user.color-17 { color: var(--pink-5) }
+#chat.colored-nicks .user.color-18 { color: var(--red-5) }
+#chat.colored-nicks .user.color-19 { color: var(--red-2) }
+#chat.colored-nicks .user.color-20 { color: var(--grape-6) }
+#chat.colored-nicks .user.color-21 { color: var(--teal-4) }
+#chat.colored-nicks .user.color-22 { color: var(--violet-4) }
+#chat.colored-nicks .user.color-23 { color: var(--indigo-3) }
+#chat.colored-nicks .user.color-24 { color: var(--pink-6) }
+#chat.colored-nicks .user.color-25 { color: var(--indigo-6) }
+#chat.colored-nicks .user.color-26 { color: var(--pink-4) }
+#chat.colored-nicks .user.color-27 { color: var(--blue-6) }
+#chat.colored-nicks .user.color-28 { color: var(--cyan-4) }
+#chat.colored-nicks .user.color-29 { color: var(--blue-3) }
+#chat.colored-nicks .user.color-30 { color: var(--violet-2) }
+#chat.colored-nicks .user.color-31 { color: var(--green-5) }
+#chat.colored-nicks .user.color-32 { color: var(--cyan-2) }
