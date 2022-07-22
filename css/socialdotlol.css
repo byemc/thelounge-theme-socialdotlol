@@ -1,0 +1,12 @@
+div.logo-container img {
+    display: none;
+    height: 46px;
+    background-color: grey;
+    width: 100%
+}
+
+div.logo-container::after {
+    content: url(../prami.svg);
+    height: 46px;
+    display: flex; /* somehow fixes sizing */
+}
