@@ -185,7 +185,7 @@ div.logo-container::after {
 }
 
 #chat .userlist {
-    border-right: 1px solid var(--gray-7);
+    border-left: 1px solid var(--gray-7);
 }
 
 @media(max-width: 480px) {
