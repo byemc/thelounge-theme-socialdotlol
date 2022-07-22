@@ -196,6 +196,18 @@ div.logo-container::after {
     border-left: 1px solid var(--gray-7);
 }
 
+ul#context-menu {
+    background: var(--gray-9);
+}
+
+.context-menu-divider {
+    background-color: rgb(255 255 255 / 10%);
+}
+
+.context-menu-item {
+    color: var(--body-color);
+}
+
 @media(max-width: 480px) {
     form#form {
         padding-bottom: 20px;
