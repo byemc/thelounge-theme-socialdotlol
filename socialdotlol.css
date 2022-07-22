@@ -196,6 +196,10 @@ div.logo-container::after {
     border-left: 1px solid var(--gray-7);
 }
 
+#chat .toggle-content {
+    background: var(--gray9);
+}
+
 ul#context-menu {
     background: var(--gray-9);
 }
