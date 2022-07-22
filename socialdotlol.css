@@ -176,8 +176,8 @@ div.logo-container::after {
     margin: 0 auto;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 480px) {
     body {
-        height: env(safe-area-inset-top); 
+        padding-bottom: 20px;
     }
 }
