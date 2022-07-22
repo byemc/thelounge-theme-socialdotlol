@@ -164,7 +164,7 @@ input, #chat .userlist .search, form.message-search .input-wrapper input {
 }
 
 input::placeholder {
-    color: var(--gray-5);
+    color: var(--gray-5) !important;
 }
 
 #form #submit, #form #upload {
