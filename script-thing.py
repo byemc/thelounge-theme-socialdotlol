@@ -10,7 +10,7 @@ for i in range(1,33):
 all_colors = []
 
 for color in good_colors:
-    for i in range(1,7):
+    for i in range(1,5):
         all_colors.append(f"--{color}-{i}")
 
 for i in range (1,33):

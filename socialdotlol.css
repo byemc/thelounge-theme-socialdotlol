@@ -176,6 +176,18 @@ div.logo-container::after {
     margin: 0 auto;
 }
 
+#chat .content {
+    border-left: 1px solid var(--gray-7);
+}
+
+#chat .header {
+    border-bottom: 1px solid var(--gray-7);
+}
+
+#chat .userlist {
+    border-right: 1px solid var(--gray-7);
+}
+
 @media(max-width: 480px) {
     form#form {
         padding-bottom: 20px;
@@ -185,35 +197,35 @@ div.logo-container::after {
     }
 }
 
-#chat.colored-nicks .user.color-1 { color: var(--violet-4) }
-#chat.colored-nicks .user.color-2 { color: var(--indigo-5) }
-#chat.colored-nicks .user.color-3 { color: var(--blue-6) }
-#chat.colored-nicks .user.color-4 { color: var(--blue-5) }
-#chat.colored-nicks .user.color-5 { color: var(--blue-1) }
-#chat.colored-nicks .user.color-6 { color: var(--cyan-5) }
-#chat.colored-nicks .user.color-7 { color: var(--indigo-3) }
-#chat.colored-nicks .user.color-8 { color: var(--violet-3) }
-#chat.colored-nicks .user.color-9 { color: var(--grape-5) }
-#chat.colored-nicks .user.color-10 { color: var(--cyan-1) }
-#chat.colored-nicks .user.color-11 { color: var(--red-2) }
-#chat.colored-nicks .user.color-12 { color: var(--blue-4) }
-#chat.colored-nicks .user.color-13 { color: var(--cyan-3) }
-#chat.colored-nicks .user.color-14 { color: var(--green-6) }
-#chat.colored-nicks .user.color-15 { color: var(--grape-6) }
-#chat.colored-nicks .user.color-16 { color: var(--pink-6) }
-#chat.colored-nicks .user.color-17 { color: var(--green-4) }
-#chat.colored-nicks .user.color-18 { color: var(--indigo-6) }
-#chat.colored-nicks .user.color-19 { color: var(--green-1) }
-#chat.colored-nicks .user.color-20 { color: var(--violet-1) }
-#chat.colored-nicks .user.color-21 { color: var(--grape-3) }
-#chat.colored-nicks .user.color-22 { color: var(--cyan-6) }
-#chat.colored-nicks .user.color-23 { color: var(--teal-4) }
-#chat.colored-nicks .user.color-24 { color: var(--indigo-4) }
-#chat.colored-nicks .user.color-25 { color: var(--cyan-2) }
-#chat.colored-nicks .user.color-26 { color: var(--red-3) }
-#chat.colored-nicks .user.color-27 { color: var(--violet-6) }
-#chat.colored-nicks .user.color-28 { color: var(--red-4) }
-#chat.colored-nicks .user.color-29 { color: var(--pink-1) }
-#chat.colored-nicks .user.color-30 { color: var(--pink-3) }
-#chat.colored-nicks .user.color-31 { color: var(--blue-3) }
-#chat.colored-nicks .user.color-32 { color: var(--green-3) }
+#chat.colored-nicks .user.color-1 { color: var(--violet-1) }
+#chat.colored-nicks .user.color-2 { color: var(--red-4) }
+#chat.colored-nicks .user.color-3 { color: var(--teal-3) }
+#chat.colored-nicks .user.color-4 { color: var(--violet-2) }
+#chat.colored-nicks .user.color-5 { color: var(--violet-3) }
+#chat.colored-nicks .user.color-6 { color: var(--cyan-2) }
+#chat.colored-nicks .user.color-7 { color: var(--indigo-2) }
+#chat.colored-nicks .user.color-8 { color: var(--red-1) }
+#chat.colored-nicks .user.color-9 { color: var(--grape-1) }
+#chat.colored-nicks .user.color-10 { color: var(--green-3) }
+#chat.colored-nicks .user.color-11 { color: var(--pink-1) }
+#chat.colored-nicks .user.color-12 { color: var(--cyan-3) }
+#chat.colored-nicks .user.color-13 { color: var(--indigo-3) }
+#chat.colored-nicks .user.color-14 { color: var(--teal-4) }
+#chat.colored-nicks .user.color-15 { color: var(--blue-4) }
+#chat.colored-nicks .user.color-16 { color: var(--teal-2) }
+#chat.colored-nicks .user.color-17 { color: var(--teal-1) }
+#chat.colored-nicks .user.color-18 { color: var(--cyan-4) }
+#chat.colored-nicks .user.color-19 { color: var(--pink-3) }
+#chat.colored-nicks .user.color-20 { color: var(--indigo-4) }
+#chat.colored-nicks .user.color-21 { color: var(--green-2) }
+#chat.colored-nicks .user.color-22 { color: var(--blue-3) }
+#chat.colored-nicks .user.color-23 { color: var(--pink-4) }
+#chat.colored-nicks .user.color-24 { color: var(--green-4) }
+#chat.colored-nicks .user.color-25 { color: var(--red-3) }
+#chat.colored-nicks .user.color-26 { color: var(--blue-2) }
+#chat.colored-nicks .user.color-27 { color: var(--pink-2) }
+#chat.colored-nicks .user.color-28 { color: var(--blue-1) }
+#chat.colored-nicks .user.color-29 { color: var(--cyan-1) }
+#chat.colored-nicks .user.color-30 { color: var(--red-2) }
+#chat.colored-nicks .user.color-31 { color: var(--green-1) }
+#chat.colored-nicks .user.color-32 { color: var(--violet-4) }
