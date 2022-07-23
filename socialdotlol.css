@@ -224,6 +224,9 @@ ul#context-menu {
     footer#footer {
         padding-bottom: 20px;
     }
+    #chat .content {
+        border-left: none;
+    }
 }
 
 #loading-status-container::before {
