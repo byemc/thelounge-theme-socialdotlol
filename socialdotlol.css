@@ -1,5 +1,4 @@
 
-@import url("/packages/thelounge-theme-socialdotlol/colors.css");
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -143,16 +142,49 @@ body {
     --body-color-muted: var(--gray-5);
     --body-bg-color: var(--gray-8);
     --button-color: var(--blue-3);
-    --button-text-color-hover: ;
+    --button-text-color-hover: var(--yellow-0);
     --overlay-bg-color: rgba(0,0,0,.5);
     --link-color: var(--blue-1);
     --window-bg-color: var(--gray-8);
     --window-heading-color: var(--gray-6);
     --date-marker-color: var(--gray-4);
     --unread-marker-color: var(--red-6);
-    --highlight-bg-color: var(--gray-4);
-    --highlight-border-color: var(--gray-3);
+    --highlight-bg-color: var(--gray-9);
+    --highlight-border-color: var(--black);
     --upload-progressbar-color: var(--button-color);
+}
+
+#sidebar {
+    background: var(--gray-9);
+}
+
+#chat .msg[data-type=monospace_block] .text {
+    background: var(--gray-9);
+    color: var(--gray-1);
+}
+
+#chat .msg[data-type=notice] .content, #chat .msg[data-type=notice] .time, #chat .msg[data-type=notice] .user, #chat .msg[data-type=wallops] .content, #chat .msg[data-type=wallops] .time, #chat .msg[data-type=wallops] .user {
+    color: var(--yellow-2);
+}
+
+#chat .msg[data-type=notice] .content, #chat .msg[data-type=notice] .time, #chat .msg[data-type=notice] .user, #chat .msg[data-type=wallops] .content, #chat .msg[data-type=wallops] .time, #chat .msg[data-type=wallops] .user .colored-nicks {
+    color: var(--yellow-2);
+}
+
+#chat .msg[data-type=part] .from:before, #chat .msg[data-type=quit] .from:before {
+    color: var(--pink-4);
+}
+
+#chat .msg[data-type=join] .from:before {
+    color: var(--lime-4);
+}
+
+#chat .userlist .count {
+    background: var(--gray-7);
+}
+
+#chat.colored-nicks .user.color-25[data-name=penelope] {
+    color: var(--yellow-3);
 }
 
 form#form {
@@ -164,10 +196,6 @@ textarea#input::placeholder {
     color: var(--gray-5);
 }
 
-input, #chat .userlist .search, form.message-search .input-wrapper input {
-    background: var(--gray-7);
-}
-
 input::placeholder {
     color: var(--gray-5) !important;
 }
@@ -176,15 +204,17 @@ input::placeholder {
     color: var(--blue-2);
 }
 
+div.logo-container {
+    margin-top: 1em;
+}
+
 div.logo-container img {
     display: none;
-    height: 46px;
-    width: 100%
 }
 
 div.logo-container::after {
     content: url(/packages/thelounge-theme-socialdotlol/prami.svg);
-    width: 80px;
+    width: 5em;
     display: block;
     margin: 0 auto;
 }
@@ -235,35 +265,35 @@ ul#context-menu {
     display: none;
 }
 
-#chat.colored-nicks .user.color-1 { color: var(--violet-1) }
-#chat.colored-nicks .user.color-2 { color: var(--red-4) }
-#chat.colored-nicks .user.color-3 { color: var(--teal-3) }
-#chat.colored-nicks .user.color-4 { color: var(--violet-2) }
-#chat.colored-nicks .user.color-5 { color: var(--violet-3) }
-#chat.colored-nicks .user.color-6 { color: var(--cyan-2) }
-#chat.colored-nicks .user.color-7 { color: var(--indigo-2) }
-#chat.colored-nicks .user.color-8 { color: var(--red-1) }
-#chat.colored-nicks .user.color-9 { color: var(--grape-1) }
-#chat.colored-nicks .user.color-10 { color: var(--green-3) }
-#chat.colored-nicks .user.color-11 { color: var(--pink-1) }
-#chat.colored-nicks .user.color-12 { color: var(--cyan-3) }
-#chat.colored-nicks .user.color-13 { color: var(--indigo-3) }
-#chat.colored-nicks .user.color-14 { color: var(--teal-4) }
-#chat.colored-nicks .user.color-15 { color: var(--blue-4) }
-#chat.colored-nicks .user.color-16 { color: var(--teal-2) }
-#chat.colored-nicks .user.color-17 { color: var(--teal-1) }
-#chat.colored-nicks .user.color-18 { color: var(--cyan-4) }
-#chat.colored-nicks .user.color-19 { color: var(--pink-3) }
-#chat.colored-nicks .user.color-20 { color: var(--indigo-4) }
-#chat.colored-nicks .user.color-21 { color: var(--green-2) }
-#chat.colored-nicks .user.color-22 { color: var(--blue-3) }
-#chat.colored-nicks .user.color-23 { color: var(--pink-4) }
-#chat.colored-nicks .user.color-24 { color: var(--green-4) }
+#chat.colored-nicks .user.color-1 { color: var(--red-3) }
+#chat.colored-nicks .user.color-2 { color: var(--orange-3) }
+#chat.colored-nicks .user.color-3 { color: var(--yellow-3) }
+#chat.colored-nicks .user.color-4 { color: var(--green-3) }
+#chat.colored-nicks .user.color-5 { color: var(--blue-3) }
+#chat.colored-nicks .user.color-6 { color: var(--indigo-3) }
+#chat.colored-nicks .user.color-7 { color: var(--violet-3) }
+#chat.colored-nicks .user.color-8 { color: var(--cyan-3) }
+#chat.colored-nicks .user.color-9 { color: var(--blue-3) }
+#chat.colored-nicks .user.color-10 { color: var(--indigo-3) }
+#chat.colored-nicks .user.color-11 { color: var(--violet-3) }
+#chat.colored-nicks .user.color-12 { color: var(--grape-3) }
+#chat.colored-nicks .user.color-13 { color: var(--red-3) }
+#chat.colored-nicks .user.color-14 { color: var(--pink-3) }
+#chat.colored-nicks .user.color-15 { color: var(--orange-3) }
+#chat.colored-nicks .user.color-16 { color: var(--yellow-3) }
+#chat.colored-nicks .user.color-17 { color: var(--green-3) }
+#chat.colored-nicks .user.color-18 { color: var(--blue-2) }
+#chat.colored-nicks .user.color-19 { color: var(--teal-3) }
+#chat.colored-nicks .user.color-20 { color: var(--cyan-3) }
+#chat.colored-nicks .user.color-21 { color: var(--blue-3) }
+#chat.colored-nicks .user.color-22 { color: var(--indigo-3) }
+#chat.colored-nicks .user.color-23 { color: var(--violet-3) }
+#chat.colored-nicks .user.color-24 { color: var(--grape-3) }
 #chat.colored-nicks .user.color-25 { color: var(--red-3) }
-#chat.colored-nicks .user.color-26 { color: var(--blue-2) }
-#chat.colored-nicks .user.color-27 { color: var(--pink-2) }
-#chat.colored-nicks .user.color-28 { color: var(--blue-1) }
-#chat.colored-nicks .user.color-29 { color: var(--cyan-1) }
-#chat.colored-nicks .user.color-30 { color: var(--red-2) }
-#chat.colored-nicks .user.color-31 { color: var(--green-1) }
-#chat.colored-nicks .user.color-32 { color: var(--violet-4) }
+#chat.colored-nicks .user.color-26 { color: var(--pink-3) }
+#chat.colored-nicks .user.color-27 { color: var(--orange-3) }
+#chat.colored-nicks .user.color-28 { color: var(--yellow-3) }
+#chat.colored-nicks .user.color-29 { color: var(--green-3) }
+#chat.colored-nicks .user.color-30 { color: var(--teal-2) }
+#chat.colored-nicks .user.color-31 { color: var(--teal-3) }
+#chat.colored-nicks .user.color-32 { color: var(--cyan-3) }
